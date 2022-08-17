@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <a class="webpage" href="https://www.amazon.com" target="_blank">Go back to Amazon</a
+    >
+    <p style="font-size: 24px; font-weight: bold">Cool Nikes</p>
+    <p style="color: green; font-weight: bold">35£ - in stock</p>
+    <p>Free delivery today!</p>
+
+    <button class="addButton">Add to Cart</button>
+    <button class="purchaseButton">Purchase</button>
+
+    <style>
+      .addButton {
+        background-color: rgb(255, 216, 20);
+        border: none;
+        width: 170px;
+        height: 40px;
+        border-radius: 28px;
+        margin-right: 8px;
+        cursor: pointer;
+        transition: opacity 0.12s;
+      }
+
+      .addButton:hover {
+        background-color: rgb(206, 190, 112);
+      }
+
+      .addButton:active {
+        opacity: 0.5;
+      }
+
+      .purchaseButton {
+        background-color: rgb(207, 158, 24);
+        border: none;
+        width: 170px;
+        height: 40px;
+        border-radius: 28px;
+        cursor: pointer;
+        transition: background-color 0.12s, opacity 0.15s;
+      }
+
+      .purchaseButton:hover {
+        background-color: rgb(129, 112, 27);
+      }
+
+      .purchaseButton:active {
+        opacity: 0.6;
+      }
+
+      .webpage:hover {
+        color: rgb(228, 182, 56);
+      }
+    </style>
+  </body>
+</html>
